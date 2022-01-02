@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/testimonial-grid-with-html5-and-grid-areas-GdWdhnJNG]
-- Live Site URL: [https://zeerobit.github.io/testimonial-grid/]
+- Solution URL: https://www.frontendmentor.io/solutions/testimonial-grid-with-html5-and-grid-areas-GdWdhnJNG
+- Live Site URL: https://zeerobit.github.io/testimonial-grid/
 
 ## My process
 
@@ -79,7 +79,7 @@ To see how you can add code snippets, see below:
 
 ### Useful resources
 
-- [MDN](- https://developer.mozilla.org/en-US/) 
+- [MDN] https://developer.mozilla.org/en-US/
 
 
 ## Author
