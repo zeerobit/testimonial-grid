@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/testimonial-grid-with-html5-and-grid-areas-GdWdhnJNG]
+- Live Site URL: [https://zeerobit.github.io/testimonial-grid/]
 
 ## My process
 
@@ -49,7 +49,7 @@ Users should be able to:
 - CSS custom properties
 - CSS Grid
 - Mobile-first workflow
-- [Styled Components](https://fonts.google.com/specimen/Barlow+Semi+Condensed)) - For styles
+- [Styled Components](https://fonts.google.com/specimen/Barlow+Semi+Condensed)
 
 
 ### What I learned
