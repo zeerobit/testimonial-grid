@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Karla:wght@400;700&family=Poppins:wght@200;400;600&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  /* Primary colors */
+  --moderate_violet: hsl(263, 55%, 52%);
+  --very_dark_grayish_blue: hsl(217, 19%, 35%);
+  --very_dark_blackish_blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Neutral colors */
+  --light_gray: hsl(0, 0%, 81%);
+  --light_grayish_blue: hsl(210, 46%, 95%);
+
+  /* Font */
+  --family_font: Barlow Semi Condensed;
+}
+
+body {
+  font-size: 13px;
+  min-height: 100vh;
+  font-family: var(--family_font);
+  background-color: var(--light_grayish_blue);
+}
+
+.testimonial__grid {
+  padding: 4.5rem 1.5rem;
+}
+
+div {
+  display: flex;
+  gap: 1rem;
+}
+
+img {
+  border-radius: 50%;
+  border: 2px solid var(--light_gray);
+  width: 2rem;
+  display: block;
+}
+
+figcaption {
+  align-self: center;
+  line-height: 1.2;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.graduate {
+  opacity: 50%;
+}
+
+figure {
+  margin-bottom: 1.2rem;
+  border-radius: 0.4rem;
+  padding: 1.6rem 2rem 2.3rem 1.5rem;
+}
+
+.daniel__testimony {
+  background-color: var(--moderate_violet);
+  color: var(--white);
+}
+
+.jonathan__testimony {
+  background-color: var(--very_dark_grayish_blue);
+  color: var(--white);
+}
+
+.jeannette__testimony {
+  background-color: var(--white);
+}
+
+.jeannette__header {
+  color: var(--very_dark_grayish_blue);
+}
+.jeannette__testimony .graduate {
+  color: var(--very_dark_grayish_blue);
+}
+
+.jeannette__testimony .top__quote {
+  color: var(--very_dark_grayish_blue);
+}
+
+.jeannette__testimony .bottom__quote {
+  color: var(--very_dark_grayish_blue);
+}
+
+.patrick__testimony {
+  background-color: var(--very_dark_blackish_blue);
+  color: var(--white);
+}
+
+.kira__testimony {
+  background-color: var(--white);
+}
+
+.kira__header {
+  color: var(--very_dark_grayish_blue);
+}
+.kira__testimony .graduate {
+  color: var(--very_dark_grayish_blue);
+}
+
+.kira__testimony .top__quote {
+  color: var(--very_dark_grayish_blue);
+}
+
+.kira__testimony .bottom__quote {
+  color: var(--very_dark_grayish_blue);
+}
+
+.top__quote {
+  margin-top: 1.3rem;
+  font-size: 1.31rem;
+}
+
+.bottom__quote {
+  margin-top: 1.5rem;
+  line-height: 1.4;
+  opacity: 70%;
+}
+
+.attribution {
+  font-size: 0.85rem;
+  text-align: center;
+  display: block;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.attribution a {
+  color: var(--moderate_violet);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 62rem) {
+  body {
+    display: grid;
+    place-content: center;
+  }
+
+  .testimonial__grid {
+    max-width: 69rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.2rem;
+    grid-template-areas:
+      "card1 card1  card2 card5"
+      "card3 card4  card4 card5 ";
+  }
+
+  figure {
+    padding: 1.6rem 2rem 2rem 1.5rem;
+    /* box-shadow: 0.5rem 3rem 3rem 0.3rem var(--light_grayish_blue); */
+  }
+
+  .daniel__testimony {
+    grid-area: card1;
+  }
+
+  .jonathan__testimony {
+    grid-area: card2;
+  }
+
+  .kira__testimony {
+    grid-area: card5;
+  }
+
+  .jeannette__testimony {
+    grid-area: card3;
+  }
+
+  .patrick__testimony {
+    grid-area: card4;
+  }
+
+  .kira__testimony {
+    grid-area: card5;
+  }
+
+  .top__quote {
+    line-height: 1.2;
+  }
+
+  .bottom__quote {
+    line-height: 1.5;
+  }
+}
