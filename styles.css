@@ -262,24 +262,16 @@ figure {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 62rem) {
-  body {
-    display: grid;
-    place-content: center;
-  }
-
+@media only screen and (min-width: 43rem) {
   .testimonial__grid {
-    max-width: 69rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 1.2rem;
     grid-template-areas:
-      "card1 card1  card2 card5"
-      "card3 card4  card4 card5 ";
-  }
-
-  figure {
-    padding: 1.6rem 2rem 2rem 1.5rem;
+      "card1 card1"
+      "card2 card3"
+      "card4 card4"
+      "card5 card5";
   }
 
   .daniel__testimony {
@@ -308,6 +300,27 @@ figure {
 
   .kira__testimony {
     grid-area: card5;
+  }
+}
+
+@media only screen and (min-width: 62rem) {
+  body {
+    display: grid;
+    place-content: center;
+  }
+
+  .testimonial__grid {
+    max-width: 69rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.2rem;
+    grid-template-areas:
+      "card1 card1  card2 card5"
+      "card3 card4  card4 card5 ";
+  }
+
+  figure {
+    padding: 1.6rem 2rem 2rem 1.5rem;
   }
 
   .top__quote {
